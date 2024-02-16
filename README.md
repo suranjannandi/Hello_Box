@@ -1,7 +1,6 @@
 # HelloBox
 Python code to upload and download to/from box
 
-
 ## run the app
 go to folder and give the command
 python HelloBox.py
@@ -12,3 +11,8 @@ please note, we need to delete the file if already exist in box
 
 ## for download
 please copy the box file id 
+
+## configure box folder access
+create an app https://ibm.ent.box.com/developers/console and create access token
+or give access at the box folder (*that will have files*) level to this id
+id: AutomationUser_1842172_4fm3QvmYCY@boxdevedition.com

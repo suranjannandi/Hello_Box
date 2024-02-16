@@ -52,10 +52,8 @@ def download_file_from_box(box_file_id, target_file):
 folder_id="248169789078"    #https://ibm.ent.box.com/folder/248169789078
 upload_file = "/Users/suranjan/Downloads/File2UploadInBox.txt"
 uploaded_file_path = upload_file_to_box(upload_file, folder_id)
-# print("File uploaded successfully ", uploaded_file_path)
 
 # Download file from box
-box_file_id = "1440341063131"   #https://ibm.ent.box.com/file/1440313179971
-target_file = "/Users/suranjan/Downloads/File2DownloadFromBox.txt"
+box_file_id = "1440341063131"   #https://ibm.ent.box.com/file/1440341063131
+target_file = "/Users/suranjan/Downloads/File2DownloadFromBox1234.txt"
 download_file_path = download_file_from_box(box_file_id, target_file)
-# print("File downloaded successfully ", download_file_path)
